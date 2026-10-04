@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="glass bar">
+    <a class="brand" href="#top" id="brand"></a>
+    <nav id="nav"></nav>
+    <button class="chip" id="lang-btn" type="button"></button>
+  </header>
+
+  <div class="layout" id="top">
+    <aside class="glass profile">
+      <img class="photo" id="photo" alt="">
+      <h1 id="name"></h1>
+      <span class="chip badge" id="role"></span>
+      <ul class="contacts" id="contacts"></ul>
+      <div class="socials" id="socials"></div>
+    </aside>
+
+    <main>
+      <section id="about"><h2></h2><div class="glass tile wide"><p id="about-text"></p></div></section>
+      <section id="skills"><h2></h2><div class="grid" id="skills-grid"></div></section>
+      <section id="code"><h2></h2><div class="glass tile wide"><pre><code id="code-block"></code></pre></div></section>
+      <section id="education"><h2></h2><div class="grid big" id="edu-grid"></div></section>
+      <section id="languages"><h2></h2><div class="grid" id="lang-grid"></div></section>
+      <section id="projects"><h2></h2><div class="grid big" id="proj-grid"></div></section>
+    </main>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
